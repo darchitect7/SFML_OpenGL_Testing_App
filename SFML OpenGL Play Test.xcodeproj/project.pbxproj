@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F799CB0B16E4423200AA8A75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F799CB0A16E4423200AA8A75 /* Foundation.framework */; };
+		F799CB0E16E4423200AA8A75 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F799CB0D16E4423200AA8A75 /* main.cpp */; };
+		F799CB1016E4423200AA8A75 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = F799CB0F16E4423200AA8A75 /* ResourcePath.mm */; };
+		F799CB1416E4423200AA8A75 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F799CB1316E4423200AA8A75 /* sansation.ttf */; };
+		F799CB1616E4423200AA8A75 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F799CB1516E4423200AA8A75 /* cute_image.jpg */; };
+		F799CB1816E4423200AA8A75 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = F799CB1716E4423200AA8A75 /* nice_music.ogg */; };
+		F799CB1D16E4423200AA8A75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F799CB1B16E4423200AA8A75 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F799CB0616E4423200AA8A75 /* SFML OpenGL Play Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFML OpenGL Play Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F799CB0A16E4423200AA8A75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F799CB0D16E4423200AA8A75 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F799CB0F16E4423200AA8A75 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		F799CB1116E4423200AA8A75 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		F799CB1316E4423200AA8A75 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		F799CB1516E4423200AA8A75 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		F799CB1716E4423200AA8A75 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		F799CB1A16E4423200AA8A75 /* SFML OpenGL Play Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFML OpenGL Play Test-Info.plist"; sourceTree = "<group>"; };
+		F799CB1C16E4423200AA8A75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F799CB0316E4423100AA8A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F799CB0B16E4423200AA8A75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F799CAFA16E4423100AA8A75 = {
+			isa = PBXGroup;
+			children = (
+				F799CB0C16E4423200AA8A75 /* SFML OpenGL Play Test */,
+				F799CB0916E4423200AA8A75 /* Frameworks */,
+				F799CB0716E4423200AA8A75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F799CB0716E4423200AA8A75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F799CB0616E4423200AA8A75 /* SFML OpenGL Play Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F799CB0916E4423200AA8A75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F799CB0A16E4423200AA8A75 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F799CB0C16E4423200AA8A75 /* SFML OpenGL Play Test */ = {
+			isa = PBXGroup;
+			children = (
+				F799CB0D16E4423200AA8A75 /* main.cpp */,
+				F799CB0F16E4423200AA8A75 /* ResourcePath.mm */,
+				F799CB1116E4423200AA8A75 /* ResourcePath.hpp */,
+				F799CB1216E4423200AA8A75 /* Resources */,
+				F799CB1916E4423200AA8A75 /* Supporting Files */,
+			);
+			path = "SFML OpenGL Play Test";
+			sourceTree = "<group>";
+		};
+		F799CB1216E4423200AA8A75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F799CB1316E4423200AA8A75 /* sansation.ttf */,
+				F799CB1516E4423200AA8A75 /* cute_image.jpg */,
+				F799CB1716E4423200AA8A75 /* nice_music.ogg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F799CB1916E4423200AA8A75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F799CB1A16E4423200AA8A75 /* SFML OpenGL Play Test-Info.plist */,
+				F799CB1B16E4423200AA8A75 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F799CB0516E4423100AA8A75 /* SFML OpenGL Play Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F799CB2016E4423200AA8A75 /* Build configuration list for PBXNativeTarget "SFML OpenGL Play Test" */;
+			buildPhases = (
+				F799CB0116E4423100AA8A75 /* ShellScript */,
+				F799CB0216E4423100AA8A75 /* Sources */,
+				F799CB0316E4423100AA8A75 /* Frameworks */,
+				F799CB0416E4423100AA8A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SFML OpenGL Play Test";
+			productName = "SFML OpenGL Play Test";
+			productReference = F799CB0616E4423200AA8A75 /* SFML OpenGL Play Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F799CAFC16E4423100AA8A75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Darchitect7;
+			};
+			buildConfigurationList = F799CAFF16E4423100AA8A75 /* Build configuration list for PBXProject "SFML OpenGL Play Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F799CAFA16E4423100AA8A75;
+			productRefGroup = F799CB0716E4423200AA8A75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F799CB0516E4423100AA8A75 /* SFML OpenGL Play Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F799CB0416E4423100AA8A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F799CB1416E4423200AA8A75 /* sansation.ttf in Resources */,
+				F799CB1616E4423200AA8A75 /* cute_image.jpg in Resources */,
+				F799CB1816E4423200AA8A75 /* nice_music.ogg in Resources */,
+				F799CB1D16E4423200AA8A75 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F799CB0116E4423100AA8A75 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required sfml dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# Are we building a project that uses framework or dylibs ?\nif [ $SFML_LINK_PREFIX = $SFML_LINK_FRAMEWORKS_PREFIX ]\nthen\n    frameworks=1\nelse\n    frameworks=0\nfi\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks\n    \n    if [ -z $1 ]\n    then\n        echo \"no parameter! ERROR!\"\n        exit\n    else\n        # clean potentially old stuff\n        rm -f $dest/libsfml-$1.2.dylib\n        rm -f $dest/libsfml-$1-d.2.dylib\n        rm -fr $dest/sfml-$1.framework\n    \n        # copy SFML libraries\n        if [ $frameworks ]\n        then\n            ditto \"/Library/Frameworks/sfml-$1.framework\" \"$dest/sfml-$1.framework\"\n        elif [ $CONFIGURATION = \"Debug\" ]\n        then\n            ditto \"/usr/local/lib/libsfml-$1-d.2.dylib\" \"$dest/libsfml-$1-d.2.dylib\"\n        else\n            ditto \"/usr/local/lib/libsfml-$1.2.dylib\" \"$dest/libsfml-$1.2.dylib\"\n        fi\n        \n        if [ $1 = \"audio\" ]\n        then\n            # copy sndfile framework too\n            ditto \"/Library/Frameworks/sndfile.framework\" \"$dest/sndfile.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\t\t\t\t\t";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F799CB0216E4423100AA8A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F799CB0E16E4423200AA8A75 /* main.cpp in Sources */,
+				F799CB1016E4423200AA8A75 /* ResourcePath.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F799CB1B16E4423200AA8A75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F799CB1C16E4423200AA8A75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F799CB1E16E4423200AA8A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = "";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					/usr/local/include/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SFML_AUDIO = "$(SFML_LINK_PREFIX)sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX)sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "-d";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework ";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_DYLIBS_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_DYLIBS_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX)sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX)sfml-window$(SFML_LINK_SUFFIX)";
+			};
+			name = Debug;
+		};
+		F799CB1F16E4423200AA8A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = "";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					/usr/local/include/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SFML_AUDIO = "$(SFML_LINK_PREFIX)sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX)sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework ";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_DYLIBS_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_DYLIBS_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX)sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX)sfml-window$(SFML_LINK_SUFFIX)";
+			};
+			name = Release;
+		};
+		F799CB2116E4423200AA8A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "SFML OpenGL Play Test/SFML OpenGL Play Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F799CB2216E4423200AA8A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "SFML OpenGL Play Test/SFML OpenGL Play Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F799CAFF16E4423100AA8A75 /* Build configuration list for PBXProject "SFML OpenGL Play Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F799CB1E16E4423200AA8A75 /* Debug */,
+				F799CB1F16E4423200AA8A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F799CB2016E4423200AA8A75 /* Build configuration list for PBXNativeTarget "SFML OpenGL Play Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F799CB2116E4423200AA8A75 /* Debug */,
+				F799CB2216E4423200AA8A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F799CAFC16E4423100AA8A75 /* Project object */;
+}
