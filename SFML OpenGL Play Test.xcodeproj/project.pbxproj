@@ -14,7 +14,6 @@
 		F799CB1616E4423200AA8A75 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F799CB1516E4423200AA8A75 /* cute_image.jpg */; };
 		F799CB1816E4423200AA8A75 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = F799CB1716E4423200AA8A75 /* nice_music.ogg */; };
 		F799CB1D16E4423200AA8A75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F799CB1B16E4423200AA8A75 /* InfoPlist.strings */; };
-		F799CB2516E443C600AA8A75 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F799CB2316E443C600AA8A75 /* File.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +27,6 @@
 		F799CB1716E4423200AA8A75 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		F799CB1A16E4423200AA8A75 /* SFML OpenGL Play Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFML OpenGL Play Test-Info.plist"; sourceTree = "<group>"; };
 		F799CB1C16E4423200AA8A75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F799CB2316E443C600AA8A75 /* File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
-		F799CB2416E443C600AA8A75 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				F799CB0D16E4423200AA8A75 /* main.cpp */,
-				F799CB2316E443C600AA8A75 /* File.cpp */,
-				F799CB2416E443C600AA8A75 /* File.h */,
 				F799CB0F16E4423200AA8A75 /* ResourcePath.mm */,
 				F799CB1116E4423200AA8A75 /* ResourcePath.hpp */,
 				F799CB1216E4423200AA8A75 /* Resources */,
@@ -186,7 +181,6 @@
 			files = (
 				F799CB0E16E4423200AA8A75 /* main.cpp in Sources */,
 				F799CB1016E4423200AA8A75 /* ResourcePath.mm in Sources */,
-				F799CB2516E443C600AA8A75 /* File.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +347,7 @@
 				F799CB2216E4423200AA8A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
