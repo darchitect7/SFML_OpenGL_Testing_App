@@ -4,7 +4,7 @@
 
 int main (int argc, const char * argv[])
 {
-    // Create the main window
+    // Create the main window and tapdance
     sf::RenderWindow window(sf::VideoMode(800, 600), "SFML window");
 
     // Load a sprite to display
